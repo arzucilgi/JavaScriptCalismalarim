@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+              border: 2px solid black;
+              width: 80%;
+              height: 550px;
+              margin-left: 120px;
+        }
+        #div2{
+             border: 1px solid black;
+             height: 50px;
+             background-color: gainsboro;  
+        }
+        #div3{
+            border: 1px solid black;
+            height: 100px;
+        }
+        #input1{
+             border: 0.5px solid black;
+             margin-top : 30px; 
+             margin-left: 40px; 
+             height: 20px; 
+             width: 900px;
+        }
+        #div4{
+            border: 1px solid black;
+            margin-left: 40px;
+            width: 900px;
+            height: 207px;
+            
+        }
+        #div5{
+            border: 1px solid black;
+            margin-left: 40px;
+            width: 900px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+        #div4 div{
+            border: 1px solid black;
+            width: 900px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div id="div2">
+            <h2 style="padding-left: 20px; ">Todo List Sayfası</h2>
+        </div>
+        <div id="div3">
+            <div >
+                    <input type="text" name="" id="input1" placeholder="Todo Ekleyin ">
+            </div>
+            <input type="submit" name=""  value="Todo Ekleyin" style="margin-left: 40px; margin-top: 10px;" > 
+        </div>
+        <h2 style="padding-left: 40px;">Todo Listesi</h2>
+        <div id="div5"> </div>
+        <div id="div4">  
+            <div>div1</div>
+            <div>div2</div>
+            <div>div3</div>
+            <div></div>
+        </div>
+        <input type="submit" name="" id="button" value="Tüm Todoları Temizle"  style="margin-left: 40px; margin-top: 10px;">
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
